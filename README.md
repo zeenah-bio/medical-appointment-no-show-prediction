@@ -1,40 +1,47 @@
-Medical Appointment No-Show Prediction
+# 🏥 Medical Appointment No-Show Prediction 
 
-Project Overview :
+## 📌 Project Scope
+This project aims to predict whether a patient will miss a scheduled medical appointment (No-show) using machine learning techniques applied to healthcare appointment data.
 
-This project aims to predict whether a patient will miss a scheduled medical appointment (No-show) using machine learning techniques.
+## 📊 Dataset Source
+The dataset used is the **Medical Appointment No Shows** dataset from Kaggle.
 
-🎯 Objective : 
+Main file:
+- KaggleV2-May-2016.csv
 
-To build a predictive model that helps healthcare systems reduce missed appointments and improve resource management.
-
----
-
- Dataset Information : 
- 
-- Source: Kaggle (Medical Appointment No Shows)
-- Size: 110,000+ records
-- Features include:
-  - Age
-  - Gender
-  - SMS_received
-  - WaitingDays
-  - Medical conditions (Diabetes, Hypertension)
-  - Neighbourhood
-
-Target Variable:
-- `No_show` (0 = Attended, 1 = Missed)
-
----
-
-⚙️ Project Workflow
-
-1. Data Loading & Inspection  
-2. Data Cleaning & Preprocessing  
-3. Feature Engineering  
+## ⚙️ Project Workflow
+1. Data loading and inspection  
+2. Data cleaning and preprocessing  
+3. Feature engineering  
 4. Exploratory Data Analysis (EDA)  
-5. Model Training  
-6. Model Evaluation  
-7. Model Improvement  
+5. Model training  
+6. Model evaluation  
+7. Model comparison  
 
-This repository will be continuously updated based on feedback and further improvements.....
+## 🤖 Models Used
+- Logistic Regression  
+- Balanced Logistic Regression  
+- Random Forest  
+- XGBoost  
+
+## 📈 Key Findings
+- The dataset is imbalanced  
+- WaitingDays was the most influential feature  
+- XGBoost achieved better recall for identifying no-show patients  
+
+## ▶️ How to Run the Notebook
+1. Open: `NoShow_Project.ipynb`  
+2. Make sure the dataset is in the same folder  
+3. Install dependencies:
+
+pip install -r requirements.txt
+
+4. Run all cells  
+
+## 📁 Repository Contents
+- NoShow_Project.ipynb → Full ML pipeline  
+- KaggleV2-May-2016.csv → Dataset  
+- requirements.txt → Dependencies  
+
+## 🔄 Note
+This repository is continuously updated based on feedback and improvements.
