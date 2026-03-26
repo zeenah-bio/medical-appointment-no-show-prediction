@@ -1,14 +1,17 @@
 Medical Appointment No-Show Prediction
 
-Project Overview
+Project Overview :
+
 This project aims to predict whether a patient will miss a scheduled medical appointment (No-show) using machine learning techniques.
 
-🎯 Objective
+🎯 Objective : 
+
 To build a predictive model that helps healthcare systems reduce missed appointments and improve resource management.
 
 ---
 
- Dataset Information
+ Dataset Information : 
+ 
 - Source: Kaggle (Medical Appointment No Shows)
 - Size: 110,000+ records
 - Features include:
