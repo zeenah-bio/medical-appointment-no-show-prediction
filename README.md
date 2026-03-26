@@ -29,14 +29,18 @@ Main file:
 - WaitingDays was the most influential feature  
 - XGBoost achieved better recall for identifying no-show patients  
 
-## ▶️ How to Run the Notebook
-1. Open: `NoShow_Project.ipynb`  
-2. Make sure the dataset is in the same folder  
-3. Install dependencies:
+## How to Run the Project
 
-pip install -r requirements.txt
+1. Clone the repository:
+   git clone https://github.com/your-username/medical-appointment-no-show-prediction.git
 
-4. Run all cells  
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Open the notebook:
+   Run NoShow_Project.ipynb using Google Colab or Jupyter Notebook.
+
+4. Make sure the dataset is placed inside the data/ folder.
 
 ## 📁 Repository Contents
 - NoShow_Project.ipynb → Full ML pipeline  
