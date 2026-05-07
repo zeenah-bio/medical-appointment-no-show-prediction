@@ -32,7 +32,7 @@ Main file:
 ## How to Run the Project
 
 1. Clone the repository:
-   git clone https://github.com/your-username/medical-appointment-no-show-prediction.git
+   git clone git clone https://github.com/zeenah-bio/medical-appointment-no-show-prediction.git
 
 2. Install dependencies:
    pip install -r requirements.txt
