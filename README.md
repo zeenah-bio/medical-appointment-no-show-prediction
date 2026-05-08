@@ -42,10 +42,37 @@ Main file:
 
 4. Make sure the dataset is placed inside the data/ folder.
 
+---
+
+# 🤖 Interactive AI Dashboard
+
+An interactive Streamlit dashboard was developed to demonstrate the trained XGBoost model in a more practical clinical setting.
+
+### Dashboard Features
+- Real-time no-show risk prediction
+- Interactive patient input controls
+- AI-based probability estimation
+- Clinical interpretation and suggested actions
+- Modern healthcare-inspired interface
+
+### Run Locally
+
+```bash
+streamlit run app.py
+```
+
+### Required Packages
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 📁 Repository Contents
 - NoShow_Project.ipynb → Full ML pipeline  
 - KaggleV2-May-2016.csv → Dataset  
-- requirements.txt → Dependencies  
+- requirements.txt → Dependencies
+
+- 
 
 ## 🔄 Note
 This repository is continuously updated based on feedback and improvements.
