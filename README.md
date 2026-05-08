@@ -1,8 +1,10 @@
 # 🏥 Medical Appointment No-Show Prediction
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![XGBoost](https://img.shields.io/badge/Model-XGBoost-green)
-![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org)
+
+[![XGBoost](https://img.shields.io/badge/Model-XGBoost-green)](https://xgboost.readthedocs.io)
+
+[![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)](https://streamlit.io)
 
 An AI-powered healthcare project for predicting whether a patient is likely to miss a scheduled medical appointment using machine learning techniques.
 
